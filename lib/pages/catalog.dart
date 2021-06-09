@@ -21,7 +21,7 @@ class _CatalogState extends State<Catalog> {
             leading: new IconButton(
               icon: Icon(
                 Icons.arrow_back,
-                color: Colors.black,
+                color: Colors.white,
               ),
               onPressed: () {
                 Navigator.push(

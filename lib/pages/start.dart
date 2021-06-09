@@ -1,4 +1,5 @@
 import 'package:dicodingalya/pages/catalog.dart';
+import 'package:dicodingalya/pages/ongkir.dart';
 import 'package:dicodingalya/pages/signin.dart';
 import 'package:flutter/material.dart';
 
@@ -86,6 +87,18 @@ class StartPage extends StatelessWidget {
                     textColor: Colors.white,
                     child: Text(
                       "Join with Bomb",
+                    )),
+                    RaisedButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Ongkir()),
+                      );
+                    },
+                    color: Colors.brown.shade300,
+                    textColor: Colors.white,
+                    child: Text(
+                      "Check postage",
                     )),
               ],
             ),
